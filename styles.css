@@ -57,10 +57,11 @@ nav {
 
 nav ul {
   list-style-type:none;
+  margin-right: fixed;
 }
 
 nav li {
-  float:left;
+  float:right;
   margin-right:5px;
 }
 
@@ -87,13 +88,14 @@ img {
 
 
 aside {
-  width:80%;
+  width:40%;
+  height: 20%;
   margin-right:auto;
   margin-left:auto;
-  font-size:.9em;
-  background:#80ffd4;
+  font-size:.6em;
+  background:#b3ecff;
   padding:20px;
-  border:1px solid #696;
+  border:3px solid #ccffcc;
   border-radius:20px;
 
 }
@@ -108,6 +110,10 @@ footer {
   margin-left:auto;
   height:50px;
   padding:10px;
+}
+
+a {
+
 }
 
 /* Remove margins and padding from the list, and add a black background color ul css code provided by codepen*/
@@ -153,6 +159,11 @@ button.tiny, .button.tiny {
   border-style: ridge;
 }
 
+#button {
+  background-color: #ccff99;
+  font-family: impact;
+  font-size: 1.3em;
+}
 
 
 
