@@ -57,12 +57,13 @@ nav {
 
 nav ul {
   list-style-type:none;
-  margin-right: fixed;
+  margin-right: right;
 }
 
 nav li {
-  float:right;
-  margin-right:5px;
+  float:left;
+  margin-right: 5px;
+  margin-left: 20px;
 }
 
 section {
@@ -132,7 +133,7 @@ ul.topnav li {float: left;}
 ul.topnav li a {
     display: inline-block;
     color: #4da0ff;
-    text-align: center;
+    text-align: right;
     padding: 14px 16px;
     text-decoration: none;
     transition: 1.5s;
