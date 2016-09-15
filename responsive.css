@@ -9,7 +9,17 @@ nav ul li {
 	float: left;
 
 }
-@media screen and (max-width: 320px)
+@media screen {
+  body {
+    width: 75%;
+  }
+}
+
+@media print {
+  body {
+    width: 100%;
+  }
+}
 
 
 
