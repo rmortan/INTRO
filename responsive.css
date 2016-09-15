@@ -4,9 +4,9 @@
    width: 100%; 
 }
 
-<style  type="text/css">
+<style>
 @media (min-width: 40%) and (max-width: 100%) {
-   #banner { width:740px; }
+   #banner { width:74%px; }
    #banner img { max-width: 100%; max-height:222px; }
    #main { width:75%; }           
    #main-content { width:450px; float:left; }
@@ -20,7 +20,7 @@
    #main { width:45%; }           
    #main-content { width:400px;}
    #nav { width:400px; }
-   .nav-content { width:120px; margin:5px; float:left;}
+   .nav-content { width:120px; margin:0px; float:left;}
 
  }
  
@@ -31,6 +31,7 @@
    #main-content { width:250px;padding:0px;}
    #nav { width:20%; padding:10px; }
    .nav-content { width:20%; margin:5px;}
+   .nav-text { display:none; }
 
 }
 
