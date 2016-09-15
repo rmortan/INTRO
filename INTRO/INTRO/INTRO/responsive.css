@@ -1,0 +1,26 @@
+header, section, body {
+  width:50%
+  margin:0;
+}
+
+nav ul li {
+	width: 20%;
+	border-bottom: 3px;
+	float: left;
+
+}
+@media screen {
+  body {
+    width: 75%;
+  }
+}
+
+@media print {
+  body {
+    width: 100%;
+  }
+}
+
+
+
+
